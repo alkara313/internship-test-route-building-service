@@ -1,0 +1,127 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "sn.heroes",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.7.1",
+    "applicationType": "microservice",
+    "baseName": "sunub",
+    "packageName": "sn.heroes",
+    "packageFolder": "sn/heroes",
+    "serverPort": "8083",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MjZkOWQxYzVmYmI3MzU0ZDFiMWJlZmY3YWRmZGM4ODRhM2M2MTE1ZjU3NjVjMjhhN2UzZTJmODBhMDVhYzdkYWFkNmJjYWUxZmQ4ZTA2ZTc4YTcxZWVlZTk4MWU3MzY5NzZiMTdmNDQ5MjBlMmIzMjZkMDlkODlkMzA2ODFkY2I=",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-nav-element",
+        "version": "2.0.15"
+      },
+      {
+        "name": "generator-jhipster-primeng-charts",
+        "version": "1.2.0"
+      },
+      {
+        "name": "generator-jhipster-vuejs2",
+        "version": "0.4.38"
+      },
+      {
+        "name": "generator-jhipster-primeng",
+        "version": "2.1.0"
+      },
+      {
+        "name": "generator-jhipster-spring-cloud-stream",
+        "version": "1.0.0"
+      },
+      {
+        "name": "generator-jhipster-docker",
+        "version": "2.5.0"
+      },
+      {
+        "name": "generator-jhipster-standalone-profile",
+        "version": "2.2.0"
+      },
+      {
+        "name": "generator-jhipster-swagger-cli",
+        "version": "3.0.1"
+      },
+      {
+        "name": "generator-jhipster-electron",
+        "version": "1.0.0"
+      },
+      {
+        "name": "generator-jhipster-leafletmap",
+        "version": "2.0.0"
+      },
+      {
+        "name": "generator-jhipster-audit-helper",
+        "version": "1.0.3"
+      },
+      {
+        "name": "generator-jhipster-obfuscation-at-rest",
+        "version": "0.3.0"
+      },
+      {
+        "name": "generator-codegen",
+        "version": "0.2.1"
+      },
+      {
+        "name": "generator-jhipster-uaa-security-authority",
+        "version": "1.0.1"
+      },
+      {
+        "name": "generator-jhipster-feign-client",
+        "version": "1.0.6"
+      },
+      {
+        "name": "generator-jhipster-social-login-api",
+        "version": "0.0.1"
+      },
+      {
+        "name": "generator-jhipster-vmware-clarity",
+        "version": "1.1.1"
+      },
+      {
+        "name": "generator-jhipster-cockroachdb",
+        "version": "0.0.10"
+      },
+      {
+        "name": "generator-jhipster-vuejsx",
+        "version": "0.0.1"
+      },
+      {
+        "name": "generator-jhipster-file2url",
+        "version": "0.0.0"
+      },
+      {
+        "name": "generator-jhipster-aeropost",
+        "version": "1.6.0"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

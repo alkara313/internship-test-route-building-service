@@ -1,0 +1,37 @@
+{
+    "name": "sunub",
+    "version": "0.0.0",
+    "description": "Description for sunub",
+    "private": true,
+    "license": "UNLICENSED",
+    "cacheDirectories": [
+        "node_modules"
+    ],
+    "devDependencies": {
+        "generator-jhipster-nav-element": "2.0.15",
+        "generator-jhipster-primeng-charts": "1.2.0",
+        "generator-jhipster-vuejs2": "0.4.38",
+        "generator-jhipster-primeng": "2.1.0",
+        "generator-jhipster-spring-cloud-stream": "1.0.0",
+        "generator-jhipster-docker": "2.5.0",
+        "generator-jhipster-standalone-profile": "2.2.0",
+        "generator-jhipster-swagger-cli": "3.0.1",
+        "generator-jhipster-electron": "1.0.0",
+        "generator-jhipster-leafletmap": "2.0.0",
+        "generator-jhipster-audit-helper": "1.0.3",
+        "generator-jhipster-obfuscation-at-rest": "0.3.0",
+        "generator-codegen": "0.2.1",
+        "generator-jhipster-uaa-security-authority": "1.0.1",
+        "generator-jhipster-feign-client": "1.0.6",
+        "generator-jhipster-social-login-api": "0.0.1",
+        "generator-jhipster-vmware-clarity": "1.1.1",
+        "generator-jhipster-cockroachdb": "0.0.10",
+        "generator-jhipster-vuejsx": "0.0.1",
+        "generator-jhipster-file2url": "0.0.0",
+        "generator-jhipster-aeropost": "1.6.0",
+        "generator-jhipster": "5.7.1"
+    },
+    "engines": {
+        "node": ">=8.9.0"
+    }
+}
