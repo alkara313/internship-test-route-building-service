@@ -1,0 +1,31 @@
+{
+    "name": "Compagnie",
+    "fields": [
+        {
+            "fieldName": "idC",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nomC",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "ligne",
+            "otherEntityName": "ligne",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181216154233",
+    "entityTableName": "compagnie",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "sunub",
+    "applications": "*",
+    "microserviceName": "sunub"
+}

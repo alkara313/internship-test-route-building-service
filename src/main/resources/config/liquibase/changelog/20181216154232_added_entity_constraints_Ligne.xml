@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity Ligne.
+    -->
+    <changeSet id="20181216154232-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="heroes_id"
+                                 baseTableName="ligne"
+                                 constraintName="fk_ligne_heroes_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="heroes"/>
+
+        <addForeignKeyConstraint baseColumnNames="lignes_id"
+                                 baseTableName="ligne_arret"
+                                 constraintName="fk_ligne_arret_lignes_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ligne"/>
+        <addForeignKeyConstraint baseColumnNames="arrets_id"
+                                 baseTableName="ligne_arret"
+                                 constraintName="fk_ligne_arret_arrets_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="arret"/>
+        
+    </changeSet>
+</databaseChangeLog>

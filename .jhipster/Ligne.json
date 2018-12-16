@@ -1,0 +1,47 @@
+{
+    "name": "Ligne",
+    "fields": [
+        {
+            "fieldName": "idL",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "numL",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nomL",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nomTrajet",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipName": "heroes",
+            "otherEntityName": "heroes",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityRelationshipName": "",
+            "relationshipName": "arret",
+            "otherEntityName": "arret",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20181216154232",
+    "entityTableName": "ligne",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "sunub",
+    "applications": "*",
+    "microserviceName": "sunub"
+}

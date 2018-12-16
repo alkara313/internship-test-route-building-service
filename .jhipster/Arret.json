@@ -1,0 +1,32 @@
+{
+    "name": "Arret",
+    "fields": [
+        {
+            "fieldName": "idA",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nomA",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lattitude",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "longitude",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181216154234",
+    "entityTableName": "arret",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "sunub",
+    "applications": "*",
+    "microserviceName": "sunub"
+}

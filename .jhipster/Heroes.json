@@ -1,0 +1,47 @@
+{
+    "name": "Heroes",
+    "fields": [
+        {
+            "fieldName": "idHeroes",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nomH",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "prenomH",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "adresse",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "comagnie",
+            "otherEntityName": "compagnie",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "heroes"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "ligne",
+            "otherEntityName": "ligne",
+            "otherEntityRelationshipName": "heroes"
+        }
+    ],
+    "changelogDate": "20181216154231",
+    "entityTableName": "heroes",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "sunub",
+    "applications": "*",
+    "microserviceName": "sunub"
+}
